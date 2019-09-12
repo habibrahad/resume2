@@ -257,7 +257,7 @@ nav .button-collapse i {
   text-align: center;
 }
 #about .container .intro {
-  background: #ffffff;
+  background: #e4f8ff;
   padding: 40px 25px 60px 25px;
 }
 #about .profile-pic {
@@ -318,7 +318,7 @@ nav .button-collapse i {
   -o-box-shodow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 #about .intro-content .btn a {
-  color: #ffffff;
+  color: #a5ffcd;
 }
 #about .intro-content .btn-info {
   background-color: #00a9ff;
@@ -435,7 +435,7 @@ nav .button-collapse i {
   text-transform: uppercase;
 }
 .portfolio-nav ul li:hover {
-  border-bottom: 1px solid #5effee;
+  border-bottom: 1px solid #2584ff;
 }
 #portfolio-item {
   min-height: 540px;
@@ -527,7 +527,7 @@ nav .button-collapse i {
   background-color: #1abc9c;
 }
 #blog .post-details {
-  background-color: #ffffff;
+  background-color: #cff8ff;
   padding: 30px;
   margin-bottom: 24px;
 }
@@ -557,7 +557,7 @@ nav .button-collapse i {
 |----------------------------------------------------------------------------
 */
 .comment {
-  background-color: #fff;
+  background-color: #ffbeae;
   margin-top: 20px;
 }
 .comment .comment-img {
@@ -576,7 +576,7 @@ nav .button-collapse i {
 .comment-form {
   padding: 30px !important;
   margin: 20px 0px;
-  background-color: #fff;
+  background-color: #a5ffcd;
   text-align: left;
 }
 .comment-form .btn {
@@ -802,7 +802,7 @@ textarea.materialize-textarea:focus:not([readonly]) {
 }
 .btn:hover,
 .btn:focus {
-  background-color: #cff8ff;
+  background-color: #a5ffcd;
 }
 .email-success,
 .email-failed {
@@ -833,7 +833,7 @@ textarea.materialize-textarea:focus:not([readonly]) {
 }
 .btn.disabled:hover {
   background-color: #2196f3;
-  color: #fff;
+  color: #cff8ff;
   cursor: default;
 }
 /*
