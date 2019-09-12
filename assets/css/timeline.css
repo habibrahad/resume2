@@ -27,21 +27,21 @@ Main components
   /* this is the vertical line */
   content: '';
   position: absolute;
-  top: 10;
+  top: 10px;
   left: 18px;
   height: 90%;
   width: 3px;
-  background: #bdbdbd;
-  -moz-box-shadow: inset 0 -100px 100px -30px #e3e3e3;
-  -webkit-box-shadow: inset 0 -100px 100px -30px #e3e3e3;
-  box-shadow: inset 0 -100px 100px -30px #e3e3e3;
+  background: #5cf172;
+  -moz-box-shadow: inset 0 -100px 100px -30px #ff7257;
+  -webkit-box-shadow: inset 0 -100px 100px -30px #6f6fe3;
+  box-shadow: inset 0 -100px 100px -30px #e37985;
 }
 @media only screen and (min-width: 600px) {
   #cd-timeline::before {
     left: 50%;
     margin-left: -2px;
-    -moz-box-shadow: inset 0 -100px 100px -30px #e3e3e3;
-    -webkit-box-shadow: inset 0 -100px 100px -30px #e3e3e3;
+    -moz-box-shadow: inset 0 -100px 100px -30px #3666e3;
+    -webkit-box-shadow: inset 0 -100px 100px -30px #e35b6d;
     box-shadow: inset 0 -100px 100px -30px #e3e3e3;
   }
 }
@@ -160,7 +160,7 @@ Main components
   clear: both;
 }
 .cd-timeline-content h2 {
-  color: #303e49;
+  color: #8ed3b3;
 }
 .cd-timeline-content p,
 .cd-timeline-content .cd-read-more,
@@ -189,7 +189,7 @@ Main components
   height: 0;
   width: 0;
   border: 30px solid transparent;
-  border-right: 30px solid white;
+  border-right: 30px solid #3ab3ff;
   border-top: 0px;
 }
 @media only screen and (min-width: 600px) {
@@ -217,7 +217,7 @@ Main components
     top: 0px;
     left: 100%;
     border-color: transparent;
-    border-left-color: white;
+    border-left-color: #5effee;
   }
   .cd-timeline-content .cd-read-more {
     float: left;
@@ -239,7 +239,7 @@ Main components
     left: auto;
     right: 100%;
     border-color: transparent;
-    border-right-color: white;
+    border-right-color: #b6eb78;
   }
   .cssanimations .cd-timeline-content.is-hidden {
     visibility: hidden;
@@ -379,21 +379,21 @@ Main components
   /* this is the vertical line */
   content: '';
   position: absolute;
-  top: 10;
+  top: 10px;
   left: 18px;
   height: 90%;
   width: 3px;
-  background: #bdbdbd;
-  -moz-box-shadow: inset 0 -100px 100px -30px #e3e3e3;
-  -webkit-box-shadow: inset 0 -100px 100px -30px #e3e3e3;
-  box-shadow: inset 0 -100px 100px -30px #e3e3e3;
+  background: #5794d6;
+  -moz-box-shadow: inset 0 -100px 100px -30px #5effee;
+  -webkit-box-shadow: inset 0 -100px 100px -30px #84ffab;
+  box-shadow: inset 0 -100px 100px -30px #ffbeae;
 }
 @media only screen and (min-width: 600px) {
   #ed-timeline::before {
     left: 50%;
     margin-left: -2px;
-    -moz-box-shadow: inset 0 -100px 100px -30px #e3e3e3;
-    -webkit-box-shadow: inset 0 -100px 100px -30px #e3e3e3;
+    -moz-box-shadow: inset 0 -100px 100px -30px #8ff0ff;
+    -webkit-box-shadow: inset 0 -100px 100px -30px #cff8ff;
     box-shadow: inset 0 -100px 100px -30px #e3e3e3;
   }
 }
@@ -502,7 +502,7 @@ Main components
 .cd-timeline-content {
   position: relative;
   margin-left: 60px;
-  background: white;
+  background: #d3e6ed;
   border-radius: 0px;
   padding: 1em;
 }
@@ -512,7 +512,7 @@ Main components
   clear: both;
 }
 .cd-timeline-content h2 {
-  color: #303e49;
+  color: #5794d6;
 }
 .cd-timeline-content p,
 .cd-timeline-content .cd-read-more,
@@ -541,7 +541,7 @@ Main components
   height: 0;
   width: 0;
   border: 30px solid transparent;
-  border-right: 30px solid white;
+  border-right: 30px solid #84ffab;
   border-top: 0px;
 }
 @media only screen and (min-width: 600px) {
@@ -565,11 +565,12 @@ Main components
     padding: 1.6em;
     width: 45%;
   }
+/*left triangle color*/
   .cd-timeline-content::before {
     top: 0px;
     left: 100%;
     border-color: transparent;
-    border-left-color: white;
+    border-left-color: #d8ecf3;
   }
   .cd-timeline-content .cd-read-more {
     float: left;
@@ -586,12 +587,13 @@ Main components
     float: right;
     margin-left: 60px;
   }
+  /*right triangle color*/
   .cd-timeline-block:nth-child(even) .cd-timeline-content::before {
     top: 0px;
     left: auto;
     right: 100%;
     border-color: transparent;
-    border-right-color: white;
+    border-right-color: #d8ecf3;
   }
   .cssanimations .cd-timeline-content.is-hidden {
     visibility: hidden;
